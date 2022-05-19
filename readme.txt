@@ -1,0 +1,1 @@
+админа тут https://adminsanity.sanity.studio/desk через гит
