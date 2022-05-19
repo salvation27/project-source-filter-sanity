@@ -8,8 +8,6 @@ import { useStateContext } from "../../context/stateContent";
 const Home = () => {
   const { filter} = useStateContext();
 
-  console.log("filter", filter);
-
   return (
     <div className='app_home dflex'>
        <div className="app_home_filter">

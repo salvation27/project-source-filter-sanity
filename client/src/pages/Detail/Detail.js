@@ -37,8 +37,6 @@ const Detail = () => {
       setPost(thisPost);
   }, [posts]);
 
-  console.log("post1", post);
-
 if(post) {
   return (
     <div className="detail dflex">
@@ -50,14 +48,30 @@ if(post) {
         <div className="detail_contet_filter_wrap dflex">
           {post.basis && (
             <div className="detail_contet_filter_item">
-              <div style={{ color: "#3337b1", fontWeight: "bold",fontSize:'20px' }}>basis</div>
+              <div
+                style={{
+                  color: "#3337b1",
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                }}
+              >
+                basis
+              </div>
               <img src={post.basis.image.asset.url} alt="" />
-              <strong style={{ background: "#3337b1",color:'#fff' }}>{post.basis.name}</strong>
+              <strong style={{ background: "#3337b1", color: "#fff" }}>
+                {post.basis.name}
+              </strong>
             </div>
           )}
           {post.category && (
             <div className="detail_contet_filter_item">
-              <div style={{ color: "#79c687", fontWeight: "bold", fontSize:'20px' }}>
+              <div
+                style={{
+                  color: "#79c687",
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                }}
+              >
                 category
               </div>
               <img src={post.category.image.asset.url} alt="" />
@@ -68,7 +82,13 @@ if(post) {
           )}
           {post.tehnology && (
             <div className="detail_contet_filter_item">
-              <div style={{ color: "rgb(143, 17, 122)", fontWeight: "bold" ,fontSize:'20px' }}>
+              <div
+                style={{
+                  color: "rgb(143, 17, 122)",
+                  fontWeight: "bold",
+                  fontSize: "20px",
+                }}
+              >
                 tehnology
               </div>
               <img src={post.tehnology.image.asset.url} alt="" />
@@ -115,8 +135,8 @@ if(post) {
               </div>
             </a>
           )}
-          {post.linkGit && (
-            <a href={post.linkGit} target="_blank" rel="noopener noreferrer">
+          {post.linkProgect && (
+            <a href={post.linkProgect} target="_blank" rel="noopener noreferrer">
               <div className="detail_link_icon">
                 <BiSitemap />
               </div>
