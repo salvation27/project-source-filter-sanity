@@ -1,0 +1,31 @@
+/* .filter_wrap span {
+  background: rgb(51, 55, 177);
+  color: #fff;
+  padding: 0px 2px;
+} */
+.btn_groyp button {
+  /* background: #fff;
+  color: black; */
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.btn_groyp button {
+  /* background: rgb(51, 55, 177) !important; */
+  height: 30px;
+}
+.btn_groyp .active {
+  background: rgb(235, 115, 115) !important;
+}
+.filter_item h4 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.filter_item_serch input {
+  /* height: 40px; */
+  /* padding: 0px;
+  margin: 0px; */
+}
+.filter_item_serch {
+  margin: 5px 2px;
+  margin-top: 30px;
+}

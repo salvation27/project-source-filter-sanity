@@ -1,0 +1,12 @@
+.app_home_filter {
+    border:1px solid green;
+    height:  calc(100vh - 55px);
+    width: 500px;
+}
+.app_home_filter_resalt {
+  width: 100%;
+  height: 100%;
+}
+.app_home_filter_resalt {
+  margin-left: 10px;
+}

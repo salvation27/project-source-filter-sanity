@@ -1,0 +1,14 @@
+.navbar_menu ul {
+    display: flex;
+}
+.navbar_menu ul a button  {
+    font-weight: bold;
+}
+.navbar {
+    align-items: center;
+}
+/* .navbar {
+    border:1px solid red;
+    position: absolute;
+    width: 100%;
+} */
