@@ -7,6 +7,7 @@ import FilterChekBox from "./FilterChekBox";
 
 const Filter = () => {
   const {
+    filter,
     basis,
     handleSelectBasis,
     selectedBasis,
@@ -88,6 +89,7 @@ const Filter = () => {
           selectedBasis={selectedSite}
         />
       </div>
+      Найдено: {filter.length}
     </div>
   );
 };
